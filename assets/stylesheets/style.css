@@ -1,0 +1,39 @@
+body {
+  background: #FFF;
+  font-size: 14px;
+}
+
+.header-container {
+  background: #FFF;
+  max-width: 960px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.site-logo {
+  height: 70px;
+  float:left
+}
+
+.main-navigation {
+  display: block;
+  float: right;
+  width: 70%;
+  padding-top: 20px;
+}
+
+.main-navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 16px 0 16px;
+  float: right;
+  background-color: rgb(137, 189, 117);
+  border-radius: 5px;
+}
+
+.main-navigation li {
+  float: left;
+  margin: 0.7em 0.7em;
+  position: relative;
+  color: #FFF;
+}
