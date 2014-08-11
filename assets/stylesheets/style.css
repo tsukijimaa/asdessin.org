@@ -1,6 +1,8 @@
 body {
   background: #FFF;
   font-size: 14px;
+  font-family: 'mplus-2p-regular';
+  margin: 0;
 }
 
 .container {
@@ -68,4 +70,48 @@ footer {
 
 .copyright {
   clear: both;
+}
+
+h1 {
+  font-size: 200%;
+  background-image: url("/assets/images/title-head.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 50px;
+}
+
+h2 {
+  background-image: url("/assets/images/title-head-h2.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 20px;
+  font-size: 110%;
+}
+
+.main-body {
+  margin-bottom: 20px;
+}
+
+.main-body img {
+  text-align: center;
+  margin: 20px;
+}
+
+.main-body dt {
+  float: left;
+  clear: both;
+  width: 15%;
+  border-right: 1px solid rgb(137, 189, 117);
+}
+
+.main-body dd {
+  float: left;
+  width: 80%;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  height: 0;
+  content: "";
 }
