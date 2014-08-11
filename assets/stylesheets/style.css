@@ -3,11 +3,18 @@ body {
   font-size: 14px;
 }
 
-.header-container {
-  background: #FFF;
-  max-width: 960px;
-  height: 100px;
+.container {
+  width: 960px;
   margin: 0 auto;
+}
+
+header, footer {
+  height: 100px;
+}
+
+footer {
+  background: rgb(245, 239, 221);
+  font-size: 70%;
 }
 
 .site-logo {
@@ -36,4 +43,29 @@ body {
   margin: 0.7em 0.7em;
   position: relative;
   color: #FFF;
+}
+
+.footer-navigation {
+  display: block;
+  float: left;
+  margin-left: 15px;
+}
+
+.footer-navigation ul {
+  list-style: url("/assets/images/footer-list.png");
+  float: left;
+  margin-top: 10%;
+}
+
+.footer-right{
+  float: right;
+  margin-top: 35px;
+}
+
+.sns {
+  float: right;
+}
+
+.copyright {
+  clear: both;
 }
