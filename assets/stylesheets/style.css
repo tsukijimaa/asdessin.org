@@ -247,10 +247,10 @@ footer {
 /*----------------top page------------------*/
 #top-header {
   width: 100%;
+  text-align: center;
 }
 
 #top-header img{
-  width: 960px;
 }
 
 .top-contents {
@@ -262,10 +262,9 @@ footer {
 }
 
 #top-body {
-  transform: translateY(-80%);
-  -webkit-transform: translateY(-80%);
-  -ms-transform: translateY(-80%);
-  margin-bottom: -100px;
+  transform: translateY(-60%);
+  -webkit-transform: translateY(-60%);
+  -ms-transform: translateY(-60%);
 }
 
 #concept {
