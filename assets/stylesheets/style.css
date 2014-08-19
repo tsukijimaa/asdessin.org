@@ -1,6 +1,6 @@
 body {
   background: #FFF;
-  font-size: 14px;
+  font-size: 13px;
   font-family: 'mplus-2p-regular';
   margin: 0;
 }
@@ -243,4 +243,97 @@ footer {
   line-height: 1.3;
   margin-right: 5px;
 }
+
+/*----------------top page------------------*/
+#top-header {
+  width: 100%;
+}
+
+#top-header img{
+  width: 960px;
+}
+
+.top-contents {
+  background: rgb(137, 189, 117);
+  color: #fff;
+  padding: 1.0em;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+#top-body {
+  transform: translateY(-80%);
+  -webkit-transform: translateY(-80%);
+  -ms-transform: translateY(-80%);
+  margin-bottom: -100px;
+}
+
+#concept {
+ border: 2px solid #FFF;
+  border-radius: 5px;
+  width: 65%;
+  margin-bottom: 30px;
+}
+
+.requests {
+  margin: 5px;
+}
+
+#top-left-navigation {
+  width: 35%;
+  height: 500px;
+  float: left;
+}
+
+#top-right-navigation {
+  width: 65%;
+  float: left;
+  height: 500px;
+}
+
+.top-contents-title {
+  width: auto;
+  background: rgb(233, 224, 195);
+  height: auto;
+  padding: 5px;
+  margin: 0 5px 0 5px;
+}
+
+#top-right-navigation table {
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-collapse: separate;
+  border-spacing: 5px;
+  table-layout: fixed;
+}
+
+#top-right-navigation table td {
+  border: none;
+  text-align: left;
+  height: 240px;
+}
+
+#top-right-navigation .service-box {
+  height: 100%;
+  position: relative;
+}
+
+#top-right-navigation .service-title {
+  background: #fff;
+  margin-bottom: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+#top-right-navigation .service-caption {
+  font-size: 130%;
+  text-align: center;
+  margin: 5px 0 15px 0;
+}
+
+#top-right-navigation .service-link {
+  position: absolute;
+  right: 0;
+  bottom: 0
 }
