@@ -23,7 +23,7 @@ h2 {
   font-size: 120%;
 }
 
-a {
+a, a:visited {
   text-decoration: none;
 }
 
@@ -276,19 +276,20 @@ footer {
 }
 
 .requests {
-  margin: 5px;
+  margin: 5px 0;
 }
 
 #top-left-navigation {
-  width: 35%;
   height: 500px;
   float: left;
+  padding: 5px;
 }
 
 #top-right-navigation {
-  width: 65%;
+  width: 64%;
   float: left;
   height: 500px;
+  padding: 5px;
 }
 
 .top-contents-title {
@@ -296,7 +297,11 @@ footer {
   background: rgb(233, 224, 195);
   height: auto;
   padding: 5px;
-  margin: 0 5px 0 5px;
+}
+
+.top-contents-title img {
+  vertical-align: middle;
+  margin: 0 5px;
 }
 
 #top-right-navigation table {
@@ -337,3 +342,56 @@ footer {
   right: 0;
   bottom: 0
 }
+
+#news-list {
+  border-style: solid;
+  border-width: 0 2px 2px 2px;
+  border-color: rgb(233, 224, 195);
+}
+
+#news-list-tab {
+  background: rgb(248, 244, 230);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: rgb(233, 224, 195);
+}
+
+#news-list-tab .tab-selected {
+  background: #fff;
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  border-color: rgb(233, 224, 195);
+}
+
+#news-list-tab li a {
+  display: block;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  width: 49%;
+  padding: 5px 0;
+}
+
+#news-contents dt {
+  float: none;
+  border: none;
+  margin: 5px 0 0px 15px;
+}
+
+#news-contents dd {
+  float: none;
+  margin: 5px 0 0px 15px;
+  width: 100%;
+}
+
+#news-contents dl {
+  margin: 0;
+  padding: 5px 0;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: rgb(233, 224, 195);
+} 
