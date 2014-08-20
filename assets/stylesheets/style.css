@@ -74,6 +74,7 @@ footer {
   margin: 0.7em 0.7em;
   position: relative;
   color: #FFF;
+  cursor: pointer;
 }
 
 .site-info {
@@ -275,6 +276,7 @@ footer {
 }
 
 .requests {
+  position: relative;
   margin: 5px 0;
 }
 
@@ -346,6 +348,7 @@ footer {
   border-style: solid;
   border-width: 0 2px 2px 2px;
   border-color: rgb(233, 224, 195);
+  margin-bottom: 10px;
 }
 
 #news-list-tab {
@@ -365,32 +368,52 @@ footer {
   border-color: rgb(233, 224, 195);
 }
 
-#news-list-tab li a {
+#news-list-tab li {
+  box-sizing: border-box;
   display: block;
   float: left;
   text-align: center;
-  text-decoration: none;
   color: #000;
-  width: 49%;
-  padding: 5px 0;
+  width: 50%;
+  padding: 5px 1px;
+  cursor: pointer;
 }
 
-#news-contents dt {
+.news-contents {
+  position: relative;
+  margin: 0;
+  height: 250px;
+}
+
+.news-contents dt {
   float: none;
   border: none;
-  margin: 5px 0 0px 15px;
-}
-
-#news-contents dd {
-  float: none;
-  margin: 5px 0 0px 15px;
-  width: 100%;
-}
-
-#news-contents dl {
+  padding: 5px 0 0 15px;
   margin: 0;
-  padding: 5px 0;
+  box-sizing: border-box;
+  height: 25px;
+}
+
+.news-contents dd {
+  float: none;
+  box-sizing: border-box;
+  height: 25px;
+  margin: 0;
+  padding: 5px 0 0 15px;
+  width: 100%;
   border-style: solid;
   border-width: 0 0 1px 0;
   border-color: rgb(233, 224, 195);
-} 
+}
+
+.news-contents .list-bottom {
+  border-bottom: none;
+}
+
+.news-contents dl {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  width: 100%;
+}
